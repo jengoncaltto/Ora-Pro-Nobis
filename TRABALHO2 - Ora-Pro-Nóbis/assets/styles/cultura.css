@@ -1,0 +1,155 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: beige;
+    margin: 0;
+    font-size: 18px;
+}
+
+header{
+    background: #0b5008; 
+    padding: 15px;
+}
+
+nav{
+    text-align: center;
+    padding: 15px;
+}
+ul{
+    padding: 0%;
+    list-style: none;
+}
+nav li {
+    display: inline;
+    padding: 15px;
+}
+nav a{
+    color: aliceblue;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #17e210;
+    text-decoration:none;
+}
+
+
+/* MAIN*/
+
+
+main {
+    padding: 50px;
+    text-align: center;
+}
+
+.titulo{
+    text-align: center;
+    padding: 25px;
+}
+
+section{
+    text-align: center;
+    margin: 25px;
+}
+h2{
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.p1{
+    padding: 30px;
+    font-size: 24px;
+}
+
+strong{
+    color: #0b3809;
+
+}
+
+.sites{
+    text-align: center;
+    font-size: 22px;
+    margin: 5px;
+    padding: 20px;
+    color: rgb(0,0,0)
+}
+
+.sites a{
+    font-size: 22px;
+    color: #4be445;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.sites a:hover {
+    color: #0c5209;
+    font-weight: bolder;
+}
+
+
+.li-sites{
+    background: olivedrab;
+    color: aliceblue;
+    padding: 50px 15px 50px 15px;
+    margin: 40px 40px 80px 40px;
+}
+
+.p-sites{
+    padding: 30px;
+}
+
+.img-capsulas {
+    width: 250px;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 10px rgb(117, 117, 0);
+}
+
+iframe{
+    border: 0; 
+    width:580px;
+    height:315px; 
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 10px rgb(117, 117, 0);
+}
+
+.img-unirio{
+    padding: 10px;
+    width: 290px;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 10px rgb(117, 117, 0);
+}
+.img-unirio:hover{
+    opacity: 0.2;
+}
+.img-bolinho {
+    padding: 10px;
+    width: 380px;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 9px 9px 9px 9px rgb(117, 117, 0);
+}
+.img-bolinho:hover{
+    opacity: 0.2;
+}
+
+
+footer {
+    background-color: olive;
+    padding: 30px;
+    text-align: center;
+}
+.copyright, .contatos{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 15px;
+}
+.logo-unirio{
+    width: 65px;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+.logo-unirio:hover{
+    opacity: 0.2;
+}

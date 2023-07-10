@@ -1,0 +1,199 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: beige;
+    margin: 0;
+    font-size: 25px;
+
+}
+
+
+   /* MENU */
+header{
+    background: #0b5008; 
+    padding: 15px
+}
+
+nav{
+    text-align: center;
+    padding: 15px;
+}
+ul{
+    padding: 0%;
+    list-style: none;
+}
+nav li {
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+}
+nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: aliceblue;
+}
+nav a:hover {
+    color: #17e210;
+    text-decoration:none;
+}
+
+
+
+/* MAIN */
+
+main {
+    text-align: center;
+   
+}
+
+aside{
+    background-color: #0b5008;
+    position: fixed;
+    margin: 2px;
+    border-collapse: collapse;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+} 
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+a:hover{
+    color: #17e210;
+}
+
+.titulo{
+    font-size: 30px;
+    padding: 30px;
+}
+
+.p1, .p2, .p3, .p-tabela, .p-especie{
+    font-size: 22px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.p3{
+    font-weight: bolder;
+    font-size: 24px;
+   padding: 18px;
+}
+
+.ph{
+
+    margin: 0;
+    color: beige;
+    padding: 150px;
+    background: linear-gradient(olivedrab, darkolivegreen);
+} 
+
+.mapa-minas{
+    text-decoration: none;
+    color: black;
+
+}
+.mapa-minas:hover{
+    color: #17e210;
+}
+
+.lista-especie {
+    padding: 20px;
+    margin: 10px;
+    display: block;
+    font-size: 18px;
+}
+.lista-especie * {
+    padding: 20px;
+    margin: 10px;
+}
+
+.titulo-tipo{
+    padding: 5px;
+}
+.p-especie{
+    padding: 5x;
+}
+.imagem-especie{
+    width: 300px;
+    padding: 5px;
+}
+strong{
+    color: #0b3809;
+    
+}
+
+.link-nutri{
+    text-decoration: none;
+    color: black;
+}
+.link-nutri:hover{
+    color: #17e210;
+}
+
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    font-size: 15px;
+}
+
+.tabela {
+    padding: 20px;
+    margin: 28px;
+}
+
+caption {
+    font-size: 20px;
+    padding: 20px;
+}
+
+table, td, th{
+
+    border-collapse: collapse;
+    border: 3px solid darkolivegreen;
+    padding: 20px;
+} 
+
+th{
+    font-style: italic;
+}
+tr:nth-child(even){
+    background-color: rgb(183, 231, 86);
+}
+
+.p-tabela{
+    font-size: 18px;
+}
+.link-tbca{
+    font-size: 18px;
+    color: #17e210;
+}
+.link-tbca:hover{
+    color:#0b5008;
+}
+
+
+footer {
+    background-color: olive;
+    padding: 30px;
+    text-align: center;
+}
+.copyright, .contatos {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.logo-unirio{
+    width: 65px;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.logo-unirio:hover{
+    opacity: 0.2;
+}
