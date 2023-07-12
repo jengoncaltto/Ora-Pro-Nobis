@@ -44,6 +44,7 @@ main {
 
 li {
     padding: 40px;
+    text-decoration: none;
 }
 
 .button-enviar {
