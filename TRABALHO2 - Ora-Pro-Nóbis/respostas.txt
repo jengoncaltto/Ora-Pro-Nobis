@@ -1,0 +1,42 @@
+        <h2>SOLUÇÃO</h2>
+        <ul class="solucao"> 
+            <li>Qual é o nome científico da espécie mais comum de ora-pro-nóbis?
+                -<strong>Pereskia Aculeata.</strong>
+            </li>
+            <li>
+                Qual o principal elemento com maior destaque dessa planta? 
+                -<strong>Proteína.</strong>
+            </li>
+            <li>
+                Qual local do Brasil é mais consumido a ora-pro-nóbis?
+                -<strong>Minas</strong>
+            </li> 
+            <li>
+                Qual mineral tem maior quantidade na pereskia-aculeata? (em 100g)
+                -<strong>Cálcio.</strong>
+            </li> 
+            <li>
+                Qual tipo de pareskia tem propriedades medicinais
+                -<strong>Pereskia Bleo.</strong>
+            </li>
+            <li>
+                Sobre a história do nome "Ora-pro-Nóbis: é verdadeiro que nasceu por causa de uma antiga música medieval?
+                - <strong>Falso. Nasceu da oração Orai Por Nós.</strong>
+            </li> 
+            <li>
+                Sobre o nome "Ora-Pro-Nóbis": vem da origem de qual lingua?
+                - <strong>Latim</strong>
+            </li>
+            <li>
+                Qual especie é nativa da América Central?
+                - <strong>Pereskia bleo.</strong>
+            </li>
+            <li>
+                Qual vitamina é destaque na planta Pereskia Aculeata?
+                - <strong>Vitamina A.</strong>
+            </li>
+            <li>
+                Por que a ora-pro-nobis é conhecida como 'bife de pobre'?
+                - <strong>Porque além de barato é rica em proteinas.</strong>
+            </li>
+        </ul>

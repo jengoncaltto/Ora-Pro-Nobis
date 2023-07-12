@@ -1,35 +1,28 @@
 
 //posicionado na curiosidades
 
-function calculaDistancia(){
-}
+var latP = -22.93375164533833;
+var lonP = -43.23145834091897;
 
-
-function endereçoPlanta(){
-    var latP = -22.93375164533833;
-    var lonP = -43.23145834091897;
-    var latlonP = lonP + "," + latP;
-}
-
+var x = document.getElementById("demo");
 function getLocation()
 {
-    var x = document.getElementById("demo");
+    
   if (navigator.geolocation)
-    {
+  {
     navigator.geolocation.getCurrentPosition(showPosition,showError);
-    }
-  else{x.innerHTML="Geolocation não é suportado pelo seu nevagador.";}
+  }else{
+    x.innerHTML="Geolocation não é suportado pelo seu nevagador.";
+  }
 }
  
-function showPosition(position)
-{
-    
-  x = document.getElementById("demo");
-  var latlon = position.coords.latitude + "," + position.coords.longitude;
-  var lat1 = position.coords.latitude;
-  var lon1 = position.coords.longitude;
+  function showPosition(position)
+  {
+   
+    let distanceKM = distance(latP, lonP, position.coords.latitude, position.coords.longitude, "K");
+    x.innerHTML= "A distância entre você e da planta é:  " + distanceKM;
+  }
 
-}
  
 function showError(error)
   {
@@ -65,9 +58,7 @@ function distance(lat1, lon1, lat2, lon2, unit) {
     if (unit === "K") { dist = dist * 1.609344 }
     return dist;
 
-const distancInKm = distance(52.5200, 13.4050, 48.8566, 2.3522, "K");
-console.log(`A distância entre Berlim e Paris é de ${distanceInKm} km.`);
-}
 
+}
 
 

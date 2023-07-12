@@ -11,6 +11,8 @@
 
     </head>
 <body onload="allPages()">
+
+   
     <header> 
             <nav>
                 <ul>
@@ -23,21 +25,21 @@
     <main>
         <section class="alteracao-style">
             <p>Deseja mudar a cor do background? selecione uma dentre essas: </p>
-            <select name="background" id="background" onchange="mudaBackground(this)">
+            <select name="background" id="background" onchange="mudaBackground()">
                 <option value="PaleGoldenrod">PaleGoldenrod</option>
                 <option value="DarkKhaki">DarkKhaki</option>
                 <option value="Honeydew">Honeydew</option>
             </select>
 
             <p>Deseja mudar a fonte da letra? selecione uma dentre essas: </p>
-            <select name="fonte" id="fonte" onchange="mudaFonte(this)">
-                <option value="Rajdhani">Rajdhani</option>
+            <select name="fonte" id="fonte" onchange="mudaFonte()">
+                <option value="Montserrat">Montserrat</option> 
                 <option value="Arial">Arial</option>
-                <option value="Montserrat">Montserrat</option>                
+                <option value="Rajdhani">Rajdhani</option>               
             </select>
 
             <p>Deseja alterar o tamanho? selecione uma dentre essas: </p>
-            <select name="tamanho" id="tamanho" onchange="mudaTamanho(this)">
+            <select name="tamanho" id="tamanho" onchange="mudaTamanho()">
                 <option value="pequeno">Pequeno</option>
                 <option value="medio">Médio</option>
                 <option value="grande">Grande</option>
