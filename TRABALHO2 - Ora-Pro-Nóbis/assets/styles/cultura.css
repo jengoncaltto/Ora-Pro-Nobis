@@ -13,7 +13,6 @@ nav{
     padding: 15px;
 }
 ul{
-    padding: 0%;
     list-style: none;
 }
 nav li {
@@ -33,6 +32,10 @@ nav a:hover {
 
 /* MAIN*/
 
+.conteiner {
+    width: 100%;
+    
+}
 
 main {
     padding: 50px;
@@ -72,7 +75,6 @@ strong{
 }
 
 .sites a{
-    font-size: 22px;
     color: #4be445;
     text-decoration: none;
     text-transform: uppercase;
@@ -87,7 +89,7 @@ strong{
     background: olivedrab;
     color: aliceblue;
     padding: 50px 15px 50px 15px;
-    margin: 40px 40px 80px 40px;
+    margin: 40px 40px 0 40px;
 }
 
 .p-sites{
@@ -131,8 +133,77 @@ iframe{
     opacity: 0.2;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    gap: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    width: 100vw;
+    flex-direction: column;
+    display: flex;
+    background: #060AB2;
+  }
+  #div-memorygame{
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .memory-game {
+    width: 80vw;
+    height: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+    perspective: 1000px;
+  }
+  
+  .memory-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform .5s;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+  }
+  
+  .memory-card:active {
+    transform: scale(0.97);
+    transition: transform .2s;
+  }
+  
+  .memory-game.flip {
+    transform: rotateY(180deg);
+  }
+  
+  .front-face, .back-face {
+    width: 100%;
+    max-width: 250px;
+    height: 100%;
+    padding: 20px;
+    position: absolute;
+    border-radius: 5px;
+    background: #1C7CCC;
+    backface-visibility: hidden;
+  }
+  
+  .front-face {
+    transform: rotateY(180deg);
+  }
 
 footer {
+    position: relative;
+    bottom: 0;
+    width: 100vw;
+
     background-color: olive;
     padding: 30px;
     text-align: center;
