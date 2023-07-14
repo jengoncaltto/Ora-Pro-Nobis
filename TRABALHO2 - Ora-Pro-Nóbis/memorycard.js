@@ -2,7 +2,7 @@ var bot = document.querySelector('#recarregar');
 
 bot.addEventListener("click", function() {location.reload();});
 
-const cartas = document.querySelectorAll('.memory-card');
+const cartas = document.querySelectorAll('.memory-game');
 
 
 

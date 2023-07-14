@@ -154,7 +154,7 @@ iframe{
   }
 
   .memory-game {
-    width: 80vw;
+    width: 85vw;
     height: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
