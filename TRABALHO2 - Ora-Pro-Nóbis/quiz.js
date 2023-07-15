@@ -1,104 +1,104 @@
 // Array com todas as perguntas e respostas
 var questions = [
     {
-      question: "Pergunta 1?",
-      choices: ["Opção 1", "Opção 2", "Opção 3"],
+      question: "Qual é o nome científico da espécie mais comum de ora-pro-nóbis??",
+      choices: ["pereskia-aculeata", "pereskia-grandifolia", "pereskia-bleo"],
       correctAnswer: 1
     },
     {
-      question: "Pergunta 2?",
-      choices: ["Opção 1", "Opção 2", "Opção 3"],
+      question: "Qual o principal elemento com maior destaque dessa planta??",
+      choices: ["proteina ", "carboidratos", "lipidios"],
       correctAnswer: 1
     },
     {
-        question: "Pergunta 3?",
-        choices: ["Opção 1", "Opção 2", "Opção 3"],
+        question: "Qual local do Brasil é mais consumido a ora-pro-nóbis?",
+        choices: ["Amazônia ", "Bahia", "Minas Gerais"],
         correctAnswer: 3
       },
       {
-        question: "Pergunta 4?",
-        choices: ["Opção 1", "Opção 2", "Opção 3"],
+        question: "Qual mineral tem maior quantidade na pereskia-aculeata? (em 100g)",
+        choices: ["Cálcio ", "Iodo ", " Ferro"],
         correctAnswer: 1
       },
       {
-        question: "Pergunta 5?",
-        choices: ["Opção 1", "Opção 2", "Opção 3"],
+        question: "Qual tipo de pareskia tem propriedades medicinais?",
+        choices: ["  pereskia-aculeata", "pereskia-grandifolia ", "pereskia-bleo "],
         correctAnswer: 3
       },
       {
-        question: "Pergunta 6?",
-        choices: ["Opção 1", "Opção 2", "Opção 3"],
+        question: "Sobre a história do nome Ora-pro-Nóbis: é verdadeiro que nasceu por causa de uma antiga música medieval?",
+        choices: [" Verdadeiro", "Falso"],
         correctAnswer: 2
       },
       {
-        question: "Pergunta 7?",
-        choices: ["Opção 1", "Opção 2", "Opção 3"],
+        question: "Sobre o nome Ora-Pro-Nóbis: vem da origem de qual lingua?",
+        choices: ["Alemão ", "Latim", "Francês"],
         correctAnswer: 2
       },
       {
-        question: "Pergunta 8?",
-        choices: ["Opção 1", "Opção 2", "Opção 3"],
+        question: "Qual especie é nativa da América Central?",
+        choices: ["pereskia-aculeata ", "  pereskia-grandifolia", " pereskia-bleo"],
         correctAnswer: 3
       },
       {
-        question: "Pergunta 9?",
-        choices: ["Opção 1", "Opção 2", "Opção 3"],
+        question: "Qual vitamina é destaque na planta Pereskia Aculeata",
+        choices: ["Vitamina C", "Vitamina A" , "Vitamina D"],
         correctAnswer: 2
       },
       {
-        question: "Pergunta 10?",
-        choices: ["Opção 1", "Opção 2", "Opção 3"],
+        question: "Por que a ora-pro-nobis é conhecida como 'bife de pobre'?",
+        choices: [" Porque é unicamente barato", " Porque além de barato é rica em proteinas", " Isto é falso, na real é conhecido como bife de rico"],
         correctAnswer: 2
       },
       {
-        question: "Pergunta 11?",
-        choices: ["Opção 1", "Opção 2", "Opção 3"],
+        question: "A planta Ora-Pro-Nobis é facilmente encontrada em mercados ou lojas especializadas?",
+        choices: ["Sim", "Não"], 
         correctAnswer: 1
       },
       {
-        question: "Pergunta 12?",
-        choices: ["Opção 1", "Opção 2", "Opção 3"],
+        question: "A Ora-Pro-Nobis pode ser utilizada na fabricação de produtos cosméticos?",
+        choices: ["Sim", "Não",],
         correctAnswer: 1
       },
       {
-        question: "Pergunta 13?",
-        choices: ["Opção 1", "Opção 2", "Opção 3"],
+        question: "A planta Ora-Pro-Nobis possui alguma importância cultural ou simbólica?",
+        choices: ["Sim", "Não"],
         correctAnswer: 1
       },
       {
-        question: "Pergunta 14?",
-        choices: ["Opção 1", "Opção 2", "Opção 3"],
+        question: "Qual a porcentagem de proteina da ora-pro-nóbis?",
+        choices: [" 5%", "10%", "25%"],
         correctAnswer: 3
       },
       {
-        question: "Pergunta 15?",
-        choices: ["Opção 1", "Opção 2", "Opção 3"],
+        question: "A vitamina A presente na planta ajuda na(o):",
+        choices: ["Saúde dos ganglios", "Saúde ocular", " Não ajuda em nada"],
         correctAnswer: 2
       },
 
       {
-        question: "Pergunta 16?",
-        choices: ["Opção 1", "Opção 2", "Opção 3"],
+        question: "Qual especie é menos encontrada no Brasil",
+        choices: [ "pereskia-aculeata", "pereskia-grandifolia ", " pereskia-bleo "],
         correctAnswer: 3
       },
       {
-        question: "Pergunta 17?",
-        choices: ["Opção 1", "Opção 2", "Opção 3"],
+        question: "Qual especie é conhecida com Rosa-Madeira?",
+        choices: [" pereskia-aculeata", " pereskia-grandifolia", " pereskia-bleo "],
         correctAnswer: 3
       },
       {
-        question: "Pergunta 18?",
-        choices: ["Opção 1", "Opção 2", "Opção 3"],
+        question: "Como pode ser consumida?",
+        choices: ["Farinha", "chá", "todos acima"],
         correctAnswer: 3
       },
       {
-        question: "Pergunta 19?",
-        choices: ["Opção 1", "Opção 2", "Opção 3"],
+        question: "Qual especie é mais consumido na culinaria mineira? ",
+        choices: ["pereskia-aculeata", " pereskia-grandifolia", "pereskia-bleo"],
         correctAnswer: 1
       },
       {
-        question: "Pergunta 20?",
-        choices: ["Opção 1", "Opção 2", "Opção 3"],
+        question: "Qual é mais usada ornamentalmente?",
+        choices: ["pereskia-aculeata", " pereskia-grandifolia", "pereskia-bleo"],
         correctAnswer: 2
       }
   ];
