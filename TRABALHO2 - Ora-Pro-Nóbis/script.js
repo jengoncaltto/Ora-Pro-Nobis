@@ -1,4 +1,4 @@
-//posicionado na index
+
 
 function createJSON(){
   let styleObj = {

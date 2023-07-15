@@ -146,7 +146,7 @@ iframe{
     display: flex;
     background: #060AB2;
   }
-  #div-memorygame{
+  .div-memorygame{
     height: 95vh;
     display: flex;
     align-items: center;
@@ -180,7 +180,7 @@ iframe{
     transition: transform .2s;
   }
   
-  .memory-game.flip {
+  .memory-card.flip {
     transform: rotateY(180deg);
   }
   

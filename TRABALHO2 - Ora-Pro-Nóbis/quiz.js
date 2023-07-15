@@ -1,42 +1,50 @@
-function mostrarPergunta() {
-    var linhas = 0;
-    for( var i = linhas; i < 5; i++) {
-        Math.random()
-        document.getElementById('perguntas').innerHTML += i + '<br>'
+var pergunta =  document.getElementsByClassName('pergunta');
+var opcoes = document.getElementsByClassName('opcoes');
+var resposta = document.querySelectorAll('input');
 
+function createJSON(){
+    let questionOBJ = {
+        question: 'pergunta',
+        options: 'opcoes',
+        answer: 'resposta'
+    } 
+    let questionJSON = JSON.stringify(questionOBJ);
+    localStorage.setItem('quiz', questionJSON);                     
+    console.log("Instanciado com sucesso");
+}
+console.log(createJSON)
+
+function startStorage(){
+    //Cria o starge se ele não existe na memória.
+      if(localStorage.getItem('quiz') === null || localStorage.getItem('quiz') === undefined){
+        createJSON();
+        console.log("started")
+      }
+      else{
+        console.log("Once started")
+      }
     }
-} 
 
-// Definição das perguntas do quiz
-const questions = [
-    {
-      question: "Qual é a capital da França?",
-      options: ["Paris", "Londres", "Madri", "Berlim"],
-      answer: 0
-    },
-    {
-      question: "Qual é o maior planeta do sistema solar?",
-      options: ["Júpiter", "Saturno", "Terra", "Netuno"],
-      answer: 0
-    },
-    // Adicione as demais perguntas aqui
-  ];
-  
+    
+function buscaPerguntas(){
+   
+}
+
   let score = 0;
   let playedOnce = false;
   
   // Função para exibir uma pergunta aleatória
   function displayQuestion() {
-    const randomIndex = Math.floor(Math.random() * questions.length);
-    const question = questions[randomIndex];
+    const randomIndex = Math.floor(Math.random() * buscaPerguntas.length);
+    const question = buscaPerguntas[randomIndex];
   
-    console.log(question.question);
+    console.log(question.buscaPerguntas);
   
     for (let i = 0; i < question.options.length; i++) {
       console.log(`${i + 1}. ${question.options[i]}`);
     }
   
-    const userAnswer = parseInt(prompt("Digite o número da sua resposta:"));
+    const userAnswer = parseInt();
   
     if (userAnswer === question.answer + 1) {
       score++;

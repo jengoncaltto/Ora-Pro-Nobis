@@ -1,10 +1,4 @@
-var bot = document.querySelector('#recarregar');
-
-bot.addEventListener("click", function() {location.reload();});
-
-const cartas = document.querySelectorAll('.memory-game');
-
-
+const cartas = document.querySelectorAll('.memory-card');
 
 let cartaVirada = false;
 let travarTabuleiro = false;
@@ -65,7 +59,7 @@ function resetarTabuleiro() {
 //atribui uma posição para cada carta 
 (function embaralhar() {
   cartas.forEach(card => {
-    let posicao = Math.floor(Math.random() * 16);
+    let posicao = Math.floor(Math.random() * 12);
     card.style.order = posicao;
   });
 })();
