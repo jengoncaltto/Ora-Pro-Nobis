@@ -112,7 +112,7 @@ var questions = [
   
   // Função para embaralhar as perguntas
   function shuffleQuestions() {
-    for (var i = questions.length - 1; i > 0; i--) {
+    for (var i = questions.length - 1; i > 0; i++) {
       var j = Math.floor(Math.random() * (i + 1));
       var temp = questions[i];
       questions[i] = questions[j];
@@ -126,7 +126,7 @@ var questions = [
     var end = currentQuestion + numQuestionsToShow;
     if (end >= questions.length) {
       end = questions.length;
-      submitBtn.innerText = "Finalizar";
+      submitBtn.innerText = "Submeter";
     }
     
     questionList.innerHTML = "";
