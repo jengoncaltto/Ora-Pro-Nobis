@@ -1,6 +1,6 @@
 # Ora-Pro-Nobis
 
-Trabalho realizado objetivando a descrever caracteristicas e curiosidades sobre a planta Ora-Pro-Nóbis.
+Trabalho realizado para descrever caracteristicas e curiosidades sobre a planta Ora-Pro-Nóbis.
 
 Dividido em 4 paginas:
 
