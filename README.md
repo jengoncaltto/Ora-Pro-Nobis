@@ -1,17 +1,45 @@
-<h1>Ora-Pro-Nobis</h1>
+# Ora-Pro-Nobis
 
-Trabalho realizado no primeiro semestre na UNIRIO para criar um site web utilizando HTML, CSS e JavaScript com intuito de apresentar e descrever caracteristicas e curiosidades sobre a planta Ora-Pro-Nóbis.
+Projeto acadêmico do primeiro semestre da UNIRIO que apresenta um site informativo sobre a planta **Ora-Pro-Nóbis**, desenvolvido com **HTML**, **CSS** e **JavaScript** ([GitHub][1]).
 
-<h3>Dividido em 4 paginas: </h3>
+## 🗂 Estrutura do Projeto (4 páginas principais)
 
-1 - Início(index): 
-  > motivo pelo qual escolhi essa planta para apresentar.
+1. **Início (`index.html`)**
+   — Apresentação do motivo da escolha da planta.
 
-2 - Curiosidades:
-  > descrevo a planta, suas especificidades, tipos de espécies, história por trás do nome "Ora-Pr-Nóbis", importância na alimentação e uma tabela com suas propriedades.
+2. **Curiosidades (`curiosidades.html`)**
+   — Detalhes sobre a planta: características, tipos de espécies, origem do nome "Ora-Pro-Nóbis", importância na alimentação e uma tabela com suas propriedades.
 
-3 - Cultura:
-  > apresenta onde a planta aparece seja em pesquisa, vídeos, músicas, receitas e etc.
+3. **Cultura (`cultura.html`)**
+   — Exemplos de presença da planta em pesquisas, vídeos, músicas, receitas e outros contextos culturais.
 
-4 - Quiz:
-  > conta com perguntas sobre a planta.
+4. **Quiz (`quiz.html`)**
+   — Um questionário interativo sobre a planta.
+
+## Instalação e Uso
+
+Clone o repositório e abra `index.html` no seu navegador para navegar pelas páginas.
+
+```bash
+git clone https://github.com/jengoncaltto/Ora-Pro-Nobis.git
+cd Ora-Pro-Nobis
+# Abra index.html com seu navegador favorito
+```
+
+## Pré-requisitos
+
+* Navegador moderno (Chrome, Firefox, Edge, Safari etc.).
+* Conexão com internet apenas se houver conteúdo referenciado por links externos (vídeos, fontes etc.).
+
+## Tecnologias Utilizadas
+
+* **HTML** — estrutura do conteúdo
+* **CSS** — estilo visual
+* **JavaScript** — interatividade (como no quiz)
+
+## Objetivo
+
+Apresentar de forma envolvente e educativa informações sobre a planta **Ora-Pro-Nóbis**, que é relevante tanto nutricionalmente quanto culturalmente ([GitHub][1]).
+
+## Autor
+* Jenifer Gonçalves Brito.
