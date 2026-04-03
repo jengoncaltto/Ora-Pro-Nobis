@@ -1,6 +1,6 @@
 # Ora-Pro-Nobis
 
-Projeto acadêmico do primeiro semestre da UNIRIO que apresenta um site informativo sobre a planta **Ora-Pro-Nóbis**, desenvolvido com **HTML**, **CSS** e **JavaScript** ([GitHub][1]).
+Projeto acadêmico do primeiro semestre da UNIRIO que apresenta um site informativo sobre a planta **Ora-Pro-Nóbis**, desenvolvido com **HTML**, **CSS** e **JavaScript**.
 
 ## 🗂 Estrutura do Projeto (4 páginas principais)
 
